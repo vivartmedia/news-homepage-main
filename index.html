@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNewsHomePage</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <!-- Optional: Add the Inter font family (tailwind) for more: https://tailwindui.com/documentation -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.svg">
+</head>
+
+<body class="">
+    <!-- navbar -->
+    <div class="container p-4 mx-auto max-w-screen-xl">
+        <nav class="bg-white border-gray-200 dark:bg-gray-900">
+            <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img class="" src="./assets/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">New</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Popular</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Trending</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Categories</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="md:grid md:grid-cols-3 gap-12 mb-10">
+            <div class="md:col-start-2 col-span-2">
+                <div>
+                    <div>
+                        <img class="md:hidden w-full h-auto" src="./assets/images/image-web-3-mobile.jpg" alt="">
+                        <img class="hidden md:block w-full h-auto" src="./assets/images/image-web-3-desktop.jpg" alt="">
+                    </div>
+                    <div class="md:mt-10 pt-5">
+                        <div class="flex flex-col md:flex-row md:justify-between ">
+                            <div class=" w-full mb-5">
+                                <h1 class="text-5xl md:text-6xl font-black max-w-sm">
+                                    The Bright Future of Web 3.0?
+                                </h1>
+                            </div>
+                            <div class="flex flex-col w-full content-between w-1/2">
+                                <div class="md:pb-10 pb-6 mb-3">
+                                    <p class="text-md text-gray-500 tracking-wide">We dive into the next evolution of
+                                        the web that
+                                        claims to put the power of the platforms back into
+                                        the hands of the
+                                        people.
+                                        But is it really fulfilling its promise?</p>
+                                </div>
+                                <div class="flex items-end min-w-80 md:mb-0 mb-10">
+                                    <a class="bg-red-500 hover:bg-black text-white py-4 px-6 mb-8" href="#">
+                                        <p class="text-1xl font-medium tracking-widest px-5">
+                                            READ MODE
+                                        </p>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-start-1 md:col-end-1 bg-gray-900">
+                <div class="flex flex-col w-full justify-between p-6">
+                    <div class="mb-6 ">
+                        <h1 class="text-4xl font-bold text-yellow-500  mb-8">New</h1>
+                        <h3 class="text-white text-2xl font-bold mb-3">Hydrogen VS Electric Cars</h3>
+                        <p class="text-gray-400 mb-6">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                        <hr class="mb-6">
+                    </div>
+                    <div class="mb-6">
+                        <h3 class="text-white hover:text-orange-500 text-2xl font-bold mb-5">The Downsides of AI
+                            Artistry</h3>
+                        <p class="text-gray-400 mb-8">What are the possible adverse effects of on-demand AI image
+                            generation?</p>
+                        <hr class="mb-6">
+                    </div>
+                    <div class="">
+                        <h3 class="text-white text-2xl font-bold mb-3">Is VC Funding Drying Up?</h3>
+                        <p class="text-gray-400 mb-6">Private funding by VC firms is down 50% YOY. We take a look at
+                            what that means.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex flex-col gap-12 md:flex-row justify-between pt-10 mb-10 max-h-32 overflow-hidden">
+            <div class="flex">
+                <div class="pr-5">
+                    <img class="h-auto max-h-full" src="./assets/images/image-retro-pcs.jpg" alt="">
+                </div>
+                <div class="mr-8">
+                    <div>
+                        <h1 class="text-4xl font-bold text-gray-400">02</h1>
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-black text-gray-700">Top 10 Laptops of 2022</h2>
+                    </div>
+                    <div>
+                        <h3 class="text-md text-gray-500 tracking-wide">Our best picks for various needs and budgets.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="pr-5">
+                    <img class="h-auto max-h-full" src="./assets/images/image-top-laptops.jpg" alt="">
+                </div>
+                <div class="mr-8">
+                    <div>
+                        <h1 class="text-4xl font-bold text-gray-400">02</h1>
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-black text-gray-700">Top 10 Laptops of 2022</h2>
+                    </div>
+                    <div>
+                        <h3 class="text-md text-gray-500 tracking-wide">Our best picks for various needs and budgets.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="pr-5">
+                    <img class="h-auto max-h-full" src="./assets/images/image-gaming-growth.jpg" alt="">
+                </div>
+                <div>
+                    <div>
+                        <h1 class="text-4xl font-bold text-gray-400">03</h1>
+                    </div>
+                    <div>
+                        <h2 class="text-lg font-black text-gray-700">he Growth of Gaming</h2>
+                    </div>
+                    <div>
+                        <h3 class="text-md text-gray-500 tracking-wide">How the pandemic has sparked fresh
+                            opportunities.</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
