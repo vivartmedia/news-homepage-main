@@ -21,9 +21,9 @@
                     <img class="" src="./assets/images/logo.svg" class="h-8" alt="Flowbite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
                 </a>
-                <button data-collapse-toggle="navbar-default" type="button"
+                <button type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-default" aria-expanded="false">
+                    data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
                     <span class="sr-only">Open main menu</span>
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                         viewBox="0 0 17 14">
@@ -36,24 +36,23 @@
                         class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 text-gray-500 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                                aria-current="page">Home</a>
+                            class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-700 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">New</a>
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">New</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Popular</a>
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Popular</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Trending</a>
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Trending</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0 dark:text-white md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Categories</a>
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Categories</a>
                         </li>
                     </ul>
                 </div>
@@ -61,14 +60,14 @@
         </nav>
 
         <div class="md:grid md:grid-cols-3 gap-12 mb-10">
-            <div class="md:col-start-2 col-span-2">
+            <div class="md:col-start-0 col-span-2">
                 <div>
                     <div>
                         <img class="md:hidden w-full h-auto" src="./assets/images/image-web-3-mobile.jpg" alt="">
                         <img class="hidden md:block w-full h-auto" src="./assets/images/image-web-3-desktop.jpg" alt="">
                     </div>
                     <div class="md:mt-10 pt-5">
-                        <div class="flex flex-col md:flex-row md:justify-between ">
+                        <div class="flex flex-col lg:flex-row md:justify-between ">
                             <div class=" w-full mb-5">
                                 <h1 class="text-5xl md:text-6xl font-black max-w-sm">
                                     The Bright Future of Web 3.0?
@@ -97,23 +96,31 @@
                     </div>
                 </div>
             </div>
-            <div class="md:col-start-1 md:col-end-1 bg-gray-900">
+            <div class="md:col-start-3 md:col-end-4 bg-gray-900">
                 <div class="flex flex-col w-full justify-between p-6">
                     <div class="mb-6 ">
                         <h1 class="text-4xl font-bold text-yellow-500  mb-8">New</h1>
-                        <h3 class="text-white  hover:text-orange-500 text-2xl font-bold mb-3">Hydrogen VS Electric Cars</h3>
+                        <a href="#">
+                            <h3 class="text-white  hover:text-orange-400 text-2xl font-bold mb-3">Hydrogen VS Electric Cars</h3>
+                        </a>
+                        
                         <p class="text-gray-400 mb-6">Will hydrogen-fueled cars ever catch up to EVs?</p>
                         <hr class="mb-6">
                     </div>
                     <div class="mb-6">
-                        <h3 class="text-white hover:text-orange-500 text-2xl font-bold mb-5">The Downsides of AI
+                        <a href="">
+                            <h3 class="text-white hover:text-orange-400 text-2xl font-bold mb-5">The Downsides of AI
+                        </a>
                             Artistry</h3>
                         <p class="text-gray-400 mb-8">What are the possible adverse effects of on-demand AI image
                             generation?</p>
                         <hr class="mb-6">
                     </div>
                     <div class="">
-                        <h3 class="text-white hover:text-orange-500 text-2xl font-bold mb-3">Is VC Funding Drying Up?</h3>
+                        <a href="#">
+                            <h3 class="text-white hover:text-orange-400 text-2xl font-bold mb-3">Is VC Funding Drying Up?</h3>
+                        </a>
+                        
                         <p class="text-gray-400 mb-6">Private funding by VC firms is down 50% YOY. We take a look at
                             what that means.</p>
                     </div>
@@ -122,17 +129,20 @@
 
         </div>
 
-        <div class="flex flex-col gap-12 md:flex-row justify-between pt-10 mb-10 max-h-32 overflow-hidden">
+        <div class="flex flex-col gap-12 md:flex-row justify-between pt-10 mb-10  overflow-hidden">
             <div class="flex">
                 <div class="pr-5">
-                    <img class="h-auto max-h-full" src="./assets/images/image-retro-pcs.jpg" alt="">
+                    <img class="h-auto  " src="./assets/images/image-retro-pcs.jpg" alt="">
                 </div>
                 <div class="mr-8">
                     <div>
                         <h1 class="text-4xl font-bold text-gray-400">01</h1>
                     </div>
                     <div>
-                        <h2 class="text-lg font-black text-gray-700">Reviving Retro PCs</h2>
+                        <a href="#">
+                            <h2 class="text-1xl font-black hover:text-orange-400 text-gray-700">Reviving Retro PCs</h2>
+
+                        </a>
                     </div>
                     <div>
                         <h3 class="text-md text-gray-500 tracking-wide">What happens when old PCs are given modern upgrades?
@@ -142,14 +152,17 @@
             </div>
             <div class="flex">
                 <div class="pr-5">
-                    <img class="h-auto max-h-full" src="./assets/images/image-top-laptops.jpg" alt="">
+                    <img class="h-auto " src="./assets/images/image-top-laptops.jpg" alt="">
                 </div>
                 <div class="mr-8">
                     <div>
                         <h1 class="text-4xl font-bold text-gray-400">02</h1>
                     </div>
                     <div>
-                        <h2 class="text-lg font-black text-gray-700">Top 10 Laptops of 2022</h2>
+                        <a href="#">
+                            <h2 class="text-1xl font-black hover:text-orange-400  text-gray-700">Top 10 Laptops of 2022</h2>
+
+                        </a>
                     </div>
                     <div>
                         <h3 class="text-md text-gray-500 tracking-wide">Our best picks for various needs and budgets.
@@ -159,14 +172,18 @@
             </div>
             <div class="flex">
                 <div class="pr-5">
-                    <img class="h-auto max-h-full" src="./assets/images/image-gaming-growth.jpg" alt="">
+                    <img class="h-auto " src="./assets/images/image-gaming-growth.jpg" alt="">
                 </div>
                 <div>
                     <div>
                         <h1 class="text-4xl font-bold text-gray-400">03</h1>
                     </div>
                     <div>
-                        <h2 class="text-lg font-black text-gray-700">The Growth of Gaming</h2>
+                        <a href="#">
+
+                            <h2 class="text-1xl font-black hover:text-orange-400 text-gray-700">The Growth of Gaming</h2>
+
+                        </a>
                     </div>
                     <div>
                         <h3 class="text-md text-gray-500 tracking-wide">How the pandemic has sparked fresh
@@ -185,6 +202,52 @@
 
 
 
+
+<!-- drawer init and toggle -->
+<div class="text-center">
+    
+ </div>
+ 
+ <!-- drawer component -->
+ <div id="drawer-right-example" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full bg-white w-80 dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-right-label">
+    
+    <button type="button" data-drawer-hide="drawer-right-example" aria-controls="drawer-right-example" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
+       <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+       </svg>
+       <span class="sr-only">Close menu</span>
+    </button>
+    
+    <div class="grid grid-cols-2 gap-4">
+     
+
+        <ul
+                        class="font-medium flex flex-col p-4 md:p-0 mt-4   rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0  md:bg-white   ">
+                        <li>
+                            <a href="#"
+                            class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">New</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Popular</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Trending</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Categories</a>
+                        </li>
+                    </ul>
+       
+    </div>
+ </div>
+ 
 
 
 
